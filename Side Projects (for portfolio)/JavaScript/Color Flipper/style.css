@@ -1,0 +1,17 @@
+body {
+    background-color: #fff;
+}
+button {
+    width: 300px;
+    color: #4E6E81;
+    background-color: #F9DBBB;
+    font-size: 30px;
+    border-radius: 50px;
+    border: 5px solid #FF0303;
+    box-shadow: 5px 5px 20px #2E3840;
+    font-weight: bold;
+}
+
+@media (max-width: 1080px) {
+    
+}

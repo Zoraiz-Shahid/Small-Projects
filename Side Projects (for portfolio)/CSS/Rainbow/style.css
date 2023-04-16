@@ -1,0 +1,40 @@
+body {
+    background-color: #000;
+    position: absolute;
+}
+#outer,
+#middle,
+#inner {
+    justify-content: center;
+    align-items: center;
+}
+/* red, orange */
+#outer {
+    height: 300px;
+    width: 300px;
+    background-color: #ffa500;
+    border-radius: 50%;
+    border: 25px solid #ff0000;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  /* green, yellow */
+  #middle {
+    height: 200px;
+    width: 200px;
+    background-color: #008000;
+    border-radius: 50%;
+    border: 25px solid #ffff00;
+    box-sizing: border-box;
+    margin: 25px;
+  }
+  /* violet, blue */
+  #inner {
+    height: 100px;
+    width: 100px;
+    background-color: #800080;
+    border-radius: 50%;
+    border: 25px solid #0000ff;
+    box-sizing: border-box;
+    margin: 25px
+  }
